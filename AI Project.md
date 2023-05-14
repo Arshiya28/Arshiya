@@ -56,17 +56,22 @@ vectorizes the text using the term frequency-inverse document frequency (TF-IDF)
 
 the Scikit-learn library.
 
-***Matching Algorithm***
+***Clustering Algorithm***
 
 Once the data preprocessing is performed,we performed clustering using five different clustering algorithms, including K-means, 
 
-Agglomerative Clustering with Complete Linkage, Agglomerative Clustering with Single Linkage, Agglomerative Clustering with Average
+Agglomerative Clustering with Complete Linkage, Agglomerative Clustering with Single Linkage, Agglomerative Clustering with Average 
 
 Linkage, and Birch Clustering to cluster our job postings dataset. After evaluating the results of each algorithm, we found that K-means
 
 clustering with 15 clusters provided the best performance, with a Silhouette score of 0.039. Therefore, we used K-means clustering to
 
 assign labels to all of the job postings in our dataset.
+
+Below is the table which shows the number of optimal clusters and Silhouette score of the five clustering algorithms:
+
+![Alt text](t.PNG)
+
 
 
 ***Visualization***
