@@ -6,7 +6,7 @@ The job market is continuously evolving with an increasing number of job posting
 
 the need to attract the right talent. Job seekers face difficulty in finding the right job 
 
-thataligns with their skills and preferences. On the other hand, recruiters face challenges in
+that aligns with their skills and preferences. On the other hand, recruiters face challenges in
 
 identifying the most suitable candidates for a job position.To solve this problem,we
 
