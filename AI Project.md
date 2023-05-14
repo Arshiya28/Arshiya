@@ -123,6 +123,9 @@ Scikit-learn,Plotly,WordCloud,NLTK. These libraries provide functionality for da
 
 processing, machine learning, and web development.
 
+
+![Alt text](table.PNG)
+
 ***Conclusion***
 
 The job recommendation system is an effective tool for job seekers to find jobs that
