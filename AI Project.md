@@ -87,8 +87,8 @@ cluster label. We also generated a bar chart and a word cloud to visualize the m
 frequent job titles.
 
 ***BarChart***
-
 ![Alt text](barchart.PNG)
+
 ***WordCloud***
 
 ![Alt text](wordcloud.PNG)
