@@ -4,9 +4,9 @@
 
 The job market is continuously evolving with an increasing number of job postings and
 
-the need to attract the right talent. Job seekers face difficulty in finding the right job that
+the need to attract the right talent. Job seekers face difficulty in finding the right job 
 
-aligns with their skills and preferences. On the other hand, recruiters face challenges in
+thataligns with their skills and preferences. On the other hand, recruiters face challenges in
 
 identifying the most suitable candidates for a job position.To solve this problem,we
 
@@ -64,11 +64,11 @@ including K-means, Agglomerative Clustering with Complete Linkage, Agglomerative
 
 Agglomerative Clustering with Average Linkage, and Birch Clustering to cluster our job postings dataset.After 
 
-evaluating the results of each algorithm, we found that K-means clustering with 15 clusters provided the best performance,
+evaluating the results of each algorithm, we found that K-means clustering with 15 clusters provided the best
 
-with a Silhouette score of 0.039. Therefore, we used K-means clustering to assign labels to all of the job postings 
+performance,with a Silhouette score of 0.039. Therefore, we used K-means clustering to assign labels to all of
 
-in our dataset.
+the job postings in our dataset.
 
 Below is the table which shows the number of optimal clusters and Silhouette score of the five clustering algorithms:
 
