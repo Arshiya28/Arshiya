@@ -58,19 +58,16 @@ the Scikit-learn library.
 
 ***Matching Algorithm***
 
-Once the data preprocessing is performed, a matching algorithm is used to match job
+Once the data preprocessing is performed,we performed clustering using five different clustering algorithms, including K-means, 
 
-seekers with relevant job postings. The matching algorithm uses machine learning
+Agglomerative Clustering with Complete Linkage, Agglomerative Clustering with Single Linkage, Agglomerative Clustering with Average
 
-techniques such as clustering, classification, and recommendation systems to generate
+Linkage, and Birch Clustering to cluster our job postings dataset. After evaluating the results of each algorithm, we found that K-means
 
-job recommendations.Here, we performed clustering on the vectorized data to group
+clustering with 15 clusters provided the best performance, with a Silhouette score of 0.039. Therefore, we used K-means clustering to
 
-the job postings into different clusters. The Elbow method is used to determine the
+assign labels to all of the job postings in our dataset.
 
-optimal number of clusters.We assigned labels to each cluster and calculated the
-
-Silhouette score to evaluate the performance of the clustering algorithm.
 
 ***Visualization***
 
@@ -95,15 +92,13 @@ frequent job titles.
 
 Finally, we used the job recommendation model to recommend job positions to a job
 
-seeker. We first asked the job seeker to input their skills and preferences, which we used
+seeker.We extracted the content and relevant information from a PDF version of the CV and preprocessed it just like we did with the
 
-to generate a vector. We then used the same TF-IDF vectorizer used in clustering to
+training data. We then created a TF-IDF vectorizer and assigned labels to all the job postings using K-Means clustering. We calculated
 
-transform the job seeker vector. We then calculated the cosine similarity between the
+the cosine similarity between the text of each job posting and the cluster label assigned to it. We displayed the top 30 job postings
 
-job seeker vector and each job posting vector. We recommended the job postings with
-
-the highest cosine similarity scores to the job seeker.
+which has the highest cosine similarity scores to improve the accuracy of our results.
 
 **External Help/References**
 
@@ -124,7 +119,6 @@ Scikit-learn,Plotly,WordCloud,NLTK. These libraries provide functionality for da
 processing, machine learning, and web development.
 
 
-![Alt text](table.PNG)
 
 ***Conclusion***
 
@@ -142,11 +136,9 @@ Python, Pandas, NumPy, BeautifulSoup, and Scikit-learn.
 
 The job recommendation system has the potential to revolutionize the job search
 
-process by providing users with personalized job recommendations based on their
+process by providing users with personalized job recommendations based on the information provided in their CV.
 
-search history and profile information.
+The CV we used to train the model belongs to a business owner. Therefore, the recommendations provided by the system are shown below:
 
-
-Following is our final result which will show top 30 recommendations:
 ![Alt text](final.PNG)
 
