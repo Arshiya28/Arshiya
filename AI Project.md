@@ -155,5 +155,5 @@ Therefore, the recommendations provided by the system are shown below:
 
 ![Alt text](final.PNG)
 
-<link rel="stylesheet" type="text/css" href="styles.css">
+
 
