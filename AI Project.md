@@ -123,8 +123,6 @@ Scikit-learn,Plotly,WordCloud,NLTK. These libraries provide functionality for da
 
 processing, machine learning, and web development.
 
-The following table shows the technologies and libraries used in the project:
-
 ***Conclusion***
 
 The job recommendation system is an effective tool for job seekers to find jobs that
@@ -144,4 +142,8 @@ The job recommendation system has the potential to revolutionize the job search
 process by providing users with personalized job recommendations based on their
 
 search history and profile information.
+
+
+Following is our final result which will show top 30 recommendations:
+![Alt text](final.PNG)
 
