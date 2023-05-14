@@ -58,15 +58,17 @@ the Scikit-learn library.
 
 ***Clustering Algorithm***
 
-Once the data preprocessing is performed,we performed clustering using five different clustering algorithms, including K-means, 
+Once the data preprocessing is performed,we performed clustering using five different clustering algorithms,
 
-Agglomerative Clustering with Complete Linkage, Agglomerative Clustering with Single Linkage, Agglomerative Clustering with Average 
+including K-means, Agglomerative Clustering with Complete Linkage, Agglomerative Clustering with Single Linkage,
 
-Linkage, and Birch Clustering to cluster our job postings dataset. After evaluating the results of each algorithm, we found that K-means
+Agglomerative Clustering with Average Linkage, and Birch Clustering to cluster our job postings dataset.After 
 
-clustering with 15 clusters provided the best performance, with a Silhouette score of 0.039. Therefore, we used K-means clustering to
+evaluating the results of each algorithm, we found that K-means clustering with 15 clusters provided the best performance,
 
-assign labels to all of the job postings in our dataset.
+with a Silhouette score of 0.039. Therefore, we used K-means clustering to assign labels to all of the job postings 
+
+in our dataset.
 
 Below is the table which shows the number of optimal clusters and Silhouette score of the five clustering algorithms:
 
@@ -97,13 +99,17 @@ frequent job titles.
 
 Finally, we used the job recommendation model to recommend job positions to a job
 
-seeker.We extracted the content and relevant information from a PDF version of the CV and preprocessed it just like we did with the
+seeker.We extracted the content and relevant information from a PDF version of the CV 
 
-training data. We then created a TF-IDF vectorizer and assigned labels to all the job postings using K-Means clustering. We calculated
+and preprocessed it just like we did with the training data. We then created a TF-IDF 
 
-the cosine similarity between the text of each job posting and the cluster label assigned to it. We displayed the top 30 job postings
+vectorizer and assigned labels to all the job postings using K-Means clustering. We calculated
 
-which has the highest cosine similarity scores to improve the accuracy of our results.
+the cosine similarity between the text of each job posting and the cluster label assigned to it.
+
+We displayed the top 30 job postings which has the highest cosine similarity scores to improve the
+
+accuracy of our results.
 
 **External Help/References**
 
@@ -141,9 +147,11 @@ Python, Pandas, NumPy, BeautifulSoup, and Scikit-learn.
 
 The job recommendation system has the potential to revolutionize the job search
 
-process by providing users with personalized job recommendations based on the information provided in their CV.
+process by providing users with personalized job recommendations based on the information
 
-The CV we used to train the model belongs to a business owner. Therefore, the recommendations provided by the system are shown below:
+provided in their CV.The CV we used to train the model belongs to a business owner. 
+
+Therefore, the recommendations provided by the system are shown below:
 
 ![Alt text](final.PNG)
 
