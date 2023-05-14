@@ -147,3 +147,5 @@ The CV we used to train the model belongs to a business owner. Therefore, the re
 
 ![Alt text](final.PNG)
 
+<link rel="stylesheet" type="text/css" href="styles.css">
+
