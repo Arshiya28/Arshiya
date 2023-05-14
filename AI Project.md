@@ -38,7 +38,7 @@ descriptions, and other relevant information. We filtered the data to only inclu
 
 postings and extracted the relevant features such as the job title, job description, and
 
-job requirements. The data is stored in a database for later use.
+job requirements.
 
 ***Data Preprocessing Module***
 
